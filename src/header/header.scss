@@ -1,0 +1,32 @@
+.header_main_div
+{
+
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #b8c5f1;
+    
+    .header_div{
+        height: 100%;
+        margin: 0 200px 0 200px;
+        display: flex;
+        justify-content: space-between;
+
+        button{
+            height: 100%;
+            border: none;
+            font-size: 14px;
+            color: unset;
+            background-color: unset;
+        }
+      
+        .right_div{
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+        }
+        
+    }
+
+}
