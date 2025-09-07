@@ -1,0 +1,39 @@
+.home_main_div {
+  padding: 0 200px 0 200px;
+  background-color: #f4f4f4;
+  margin-top: 100px;
+
+  display: flex;
+
+  .home_image {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 36px;
+    height: 350px;
+  }
+
+  .main_div {
+    font-style: italic;
+    padding: 50px 16px 0 16px;
+    font-size: 20px;
+    line-height: 24px;
+
+    .info {
+      margin-top: 16px;
+    }
+
+    .read_more {
+      display: inline-block;
+      font-style: normal;
+      margin-top: 48px;
+      border-radius: 12px;
+      padding: 8px;
+      background-color: #ffb7c5;
+      color: #2e003e;
+      font-size: 16px;
+
+      @media screen and (min-width: 769px) {
+        cursor: pointer;
+      }
+    }
+  }
+}
